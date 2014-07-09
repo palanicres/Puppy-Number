@@ -1,0 +1,14 @@
+//
+//  cell.h
+//  FlyingBird
+//
+//  Created by bsauniv25 on 20/06/14.
+//  Copyright (c) 2014 BSA univ 25. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface Cell : UICollectionViewCell
+@property (strong, nonatomic) UILabel* label;
+
+@end

@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36192035195829DE00C2DF5C /* bird_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 36192034195829DE00C2DF5C /* bird_1.png */; };
+		3621374C1954130000A4DEF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3621374B1954130000A4DEF8 /* Foundation.framework */; };
+		3621374E1954130000A4DEF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3621374D1954130000A4DEF8 /* CoreGraphics.framework */; };
+		362137501954130000A4DEF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3621374F1954130000A4DEF8 /* UIKit.framework */; };
+		362137521954130000A4DEF8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362137511954130000A4DEF8 /* CoreData.framework */; };
+		362137581954130000A4DEF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 362137561954130000A4DEF8 /* InfoPlist.strings */; };
+		3621375A1954130000A4DEF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 362137591954130000A4DEF8 /* main.m */; };
+		3621375E1954130000A4DEF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3621375D1954130000A4DEF8 /* AppDelegate.m */; };
+		362137611954130000A4DEF8 /* FlyingBird.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3621375F1954130000A4DEF8 /* FlyingBird.xcdatamodeld */; };
+		362137631954130000A4DEF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 362137621954130000A4DEF8 /* Images.xcassets */; };
+		3621376B1954130000A4DEF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3621374B1954130000A4DEF8 /* Foundation.framework */; };
+		3621376C1954130000A4DEF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3621374F1954130000A4DEF8 /* UIKit.framework */; };
+		3621376D1954130000A4DEF8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362137511954130000A4DEF8 /* CoreData.framework */; };
+		362137751954130000A4DEF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 362137731954130000A4DEF8 /* InfoPlist.strings */; };
+		36213786195413DA00A4DEF8 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 36213785195413DA00A4DEF8 /* Cell.m */; };
+		362137891954149300A4DEF8 /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 362137881954149300A4DEF8 /* CircleLayout.m */; };
+		3621378B1954173C00A4DEF8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3621378A1954173C00A4DEF8 /* QuartzCore.framework */; };
+		3621378E195417C000A4DEF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3621378D195417C000A4DEF8 /* ViewController.m */; };
+		368999CA195C14F600ECCEB4 /* Values.m in Sources */ = {isa = PBXBuildFile; fileRef = 368999C9195C14F600ECCEB4 /* Values.m */; };
+		36A7216A19594858009C863B /* bird .png in Resources */ = {isa = PBXBuildFile; fileRef = 36A7216819594858009C863B /* bird .png */; };
+		36A7216B19594858009C863B /* bird1.png in Resources */ = {isa = PBXBuildFile; fileRef = 36A7216919594858009C863B /* bird1.png */; };
+		36A7216D19594931009C863B /* bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = 36A7216C19594931009C863B /* bird2.png */; };
+		36C17B2D195D3B3700E0BE19 /* voiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C17B2C195D3B3700E0BE19 /* voiceViewController.m */; };
+		36C17B2F195D3B7F00E0BE19 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C17B2E195D3B7F00E0BE19 /* AVFoundation.framework */; };
+		36C17B31195D3B8D00E0BE19 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C17B30195D3B8D00E0BE19 /* AudioToolbox.framework */; };
+		36D0D082196D3803001597A9 /* tapGestureTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D0D081196D3803001597A9 /* tapGestureTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3621376E1954130000A4DEF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 362137401954130000A4DEF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 362137471954130000A4DEF8;
+			remoteInfo = FlyingBird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36192034195829DE00C2DF5C /* bird_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird_1.png; sourceTree = "<group>"; };
+		362137481954130000A4DEF8 /* FlyingBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyingBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3621374B1954130000A4DEF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3621374D1954130000A4DEF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3621374F1954130000A4DEF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		362137511954130000A4DEF8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		362137551954130000A4DEF8 /* FlyingBird-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlyingBird-Info.plist"; sourceTree = "<group>"; };
+		362137571954130000A4DEF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		362137591954130000A4DEF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3621375B1954130000A4DEF8 /* FlyingBird-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlyingBird-Prefix.pch"; sourceTree = "<group>"; };
+		3621375C1954130000A4DEF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3621375D1954130000A4DEF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		362137601954130000A4DEF8 /* FlyingBird.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlyingBird.xcdatamodel; sourceTree = "<group>"; };
+		362137621954130000A4DEF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		362137681954130000A4DEF8 /* FlyingBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		362137721954130000A4DEF8 /* FlyingBirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlyingBirdTests-Info.plist"; sourceTree = "<group>"; };
+		362137741954130000A4DEF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36213784195413DA00A4DEF8 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		36213785195413DA00A4DEF8 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		362137871954149300A4DEF8 /* CircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayout.h; sourceTree = "<group>"; };
+		362137881954149300A4DEF8 /* CircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayout.m; sourceTree = "<group>"; };
+		3621378A1954173C00A4DEF8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3621378C195417C000A4DEF8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3621378D195417C000A4DEF8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		368999C8195C14F600ECCEB4 /* Values.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Values.h; sourceTree = "<group>"; };
+		368999C9195C14F600ECCEB4 /* Values.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Values.m; sourceTree = "<group>"; };
+		36A7216819594858009C863B /* bird .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bird .png"; sourceTree = "<group>"; };
+		36A7216919594858009C863B /* bird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird1.png; sourceTree = "<group>"; };
+		36A7216C19594931009C863B /* bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird2.png; sourceTree = "<group>"; };
+		36C17B2B195D3B3700E0BE19 /* voiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voiceViewController.h; sourceTree = "<group>"; };
+		36C17B2C195D3B3700E0BE19 /* voiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = voiceViewController.m; sourceTree = "<group>"; };
+		36C17B2E195D3B7F00E0BE19 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		36C17B30195D3B8D00E0BE19 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		36D0D081196D3803001597A9 /* tapGestureTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tapGestureTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		362137451954130000A4DEF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C17B31195D3B8D00E0BE19 /* AudioToolbox.framework in Frameworks */,
+				36C17B2F195D3B7F00E0BE19 /* AVFoundation.framework in Frameworks */,
+				3621378B1954173C00A4DEF8 /* QuartzCore.framework in Frameworks */,
+				3621374E1954130000A4DEF8 /* CoreGraphics.framework in Frameworks */,
+				362137521954130000A4DEF8 /* CoreData.framework in Frameworks */,
+				362137501954130000A4DEF8 /* UIKit.framework in Frameworks */,
+				3621374C1954130000A4DEF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362137651954130000A4DEF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3621376D1954130000A4DEF8 /* CoreData.framework in Frameworks */,
+				3621376C1954130000A4DEF8 /* UIKit.framework in Frameworks */,
+				3621376B1954130000A4DEF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3621373F1954130000A4DEF8 = {
+			isa = PBXGroup;
+			children = (
+				362137531954130000A4DEF8 /* FlyingBird */,
+				362137701954130000A4DEF8 /* FlyingBirdTests */,
+				3621374A1954130000A4DEF8 /* Frameworks */,
+				362137491954130000A4DEF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		362137491954130000A4DEF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				362137481954130000A4DEF8 /* FlyingBird.app */,
+				362137681954130000A4DEF8 /* FlyingBirdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3621374A1954130000A4DEF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36C17B30195D3B8D00E0BE19 /* AudioToolbox.framework */,
+				36C17B2E195D3B7F00E0BE19 /* AVFoundation.framework */,
+				3621378A1954173C00A4DEF8 /* QuartzCore.framework */,
+				3621374B1954130000A4DEF8 /* Foundation.framework */,
+				3621374D1954130000A4DEF8 /* CoreGraphics.framework */,
+				3621374F1954130000A4DEF8 /* UIKit.framework */,
+				362137511954130000A4DEF8 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		362137531954130000A4DEF8 /* FlyingBird */ = {
+			isa = PBXGroup;
+			children = (
+				362137831954139500A4DEF8 /* cells */,
+				3621375C1954130000A4DEF8 /* AppDelegate.h */,
+				3621375D1954130000A4DEF8 /* AppDelegate.m */,
+				36C17B2B195D3B3700E0BE19 /* voiceViewController.h */,
+				36C17B2C195D3B3700E0BE19 /* voiceViewController.m */,
+				362137621954130000A4DEF8 /* Images.xcassets */,
+				3621375F1954130000A4DEF8 /* FlyingBird.xcdatamodeld */,
+				368999C8195C14F600ECCEB4 /* Values.h */,
+				368999C9195C14F600ECCEB4 /* Values.m */,
+				362137541954130000A4DEF8 /* Supporting Files */,
+			);
+			path = FlyingBird;
+			sourceTree = "<group>";
+		};
+		362137541954130000A4DEF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36A7216819594858009C863B /* bird .png */,
+				36A7216919594858009C863B /* bird1.png */,
+				36A7216C19594931009C863B /* bird2.png */,
+				36192034195829DE00C2DF5C /* bird_1.png */,
+				362137551954130000A4DEF8 /* FlyingBird-Info.plist */,
+				362137561954130000A4DEF8 /* InfoPlist.strings */,
+				362137591954130000A4DEF8 /* main.m */,
+				3621375B1954130000A4DEF8 /* FlyingBird-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		362137701954130000A4DEF8 /* FlyingBirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				36D0D081196D3803001597A9 /* tapGestureTest.m */,
+				362137711954130000A4DEF8 /* Supporting Files */,
+			);
+			path = FlyingBirdTests;
+			sourceTree = "<group>";
+		};
+		362137711954130000A4DEF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				362137721954130000A4DEF8 /* FlyingBirdTests-Info.plist */,
+				362137731954130000A4DEF8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		362137831954139500A4DEF8 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				36213784195413DA00A4DEF8 /* Cell.h */,
+				36213785195413DA00A4DEF8 /* Cell.m */,
+				362137871954149300A4DEF8 /* CircleLayout.h */,
+				362137881954149300A4DEF8 /* CircleLayout.m */,
+				3621378C195417C000A4DEF8 /* ViewController.h */,
+				3621378D195417C000A4DEF8 /* ViewController.m */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		362137471954130000A4DEF8 /* FlyingBird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3621377A1954130000A4DEF8 /* Build configuration list for PBXNativeTarget "FlyingBird" */;
+			buildPhases = (
+				362137441954130000A4DEF8 /* Sources */,
+				362137451954130000A4DEF8 /* Frameworks */,
+				362137461954130000A4DEF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyingBird;
+			productName = FlyingBird;
+			productReference = 362137481954130000A4DEF8 /* FlyingBird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		362137671954130000A4DEF8 /* FlyingBirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3621377D1954130000A4DEF8 /* Build configuration list for PBXNativeTarget "FlyingBirdTests" */;
+			buildPhases = (
+				362137641954130000A4DEF8 /* Sources */,
+				362137651954130000A4DEF8 /* Frameworks */,
+				362137661954130000A4DEF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3621376F1954130000A4DEF8 /* PBXTargetDependency */,
+			);
+			name = FlyingBirdTests;
+			productName = FlyingBirdTests;
+			productReference = 362137681954130000A4DEF8 /* FlyingBirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		362137401954130000A4DEF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "BSA univ 25";
+				TargetAttributes = {
+					362137671954130000A4DEF8 = {
+						TestTargetID = 362137471954130000A4DEF8;
+					};
+				};
+			};
+			buildConfigurationList = 362137431954130000A4DEF8 /* Build configuration list for PBXProject "FlyingBird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3621373F1954130000A4DEF8;
+			productRefGroup = 362137491954130000A4DEF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				362137471954130000A4DEF8 /* FlyingBird */,
+				362137671954130000A4DEF8 /* FlyingBirdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		362137461954130000A4DEF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A7216B19594858009C863B /* bird1.png in Resources */,
+				362137581954130000A4DEF8 /* InfoPlist.strings in Resources */,
+				36A7216A19594858009C863B /* bird .png in Resources */,
+				362137631954130000A4DEF8 /* Images.xcassets in Resources */,
+				36192035195829DE00C2DF5C /* bird_1.png in Resources */,
+				36A7216D19594931009C863B /* bird2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362137661954130000A4DEF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362137751954130000A4DEF8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		362137441954130000A4DEF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3621378E195417C000A4DEF8 /* ViewController.m in Sources */,
+				368999CA195C14F600ECCEB4 /* Values.m in Sources */,
+				36213786195413DA00A4DEF8 /* Cell.m in Sources */,
+				3621375E1954130000A4DEF8 /* AppDelegate.m in Sources */,
+				3621375A1954130000A4DEF8 /* main.m in Sources */,
+				36C17B2D195D3B3700E0BE19 /* voiceViewController.m in Sources */,
+				362137611954130000A4DEF8 /* FlyingBird.xcdatamodeld in Sources */,
+				362137891954149300A4DEF8 /* CircleLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362137641954130000A4DEF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D0D082196D3803001597A9 /* tapGestureTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3621376F1954130000A4DEF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 362137471954130000A4DEF8 /* FlyingBird */;
+			targetProxy = 3621376E1954130000A4DEF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		362137561954130000A4DEF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				362137571954130000A4DEF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		362137731954130000A4DEF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				362137741954130000A4DEF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		362137781954130000A4DEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		362137791954130000A4DEF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3621377B1954130000A4DEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyingBird/FlyingBird-Prefix.pch";
+				INFOPLIST_FILE = "FlyingBird/FlyingBird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3621377C1954130000A4DEF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyingBird/FlyingBird-Prefix.pch";
+				INFOPLIST_FILE = "FlyingBird/FlyingBird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3621377E1954130000A4DEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlyingBird.app/FlyingBird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyingBird/FlyingBird-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlyingBirdTests/FlyingBirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3621377F1954130000A4DEF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlyingBird.app/FlyingBird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyingBird/FlyingBird-Prefix.pch";
+				INFOPLIST_FILE = "FlyingBirdTests/FlyingBirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		362137431954130000A4DEF8 /* Build configuration list for PBXProject "FlyingBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362137781954130000A4DEF8 /* Debug */,
+				362137791954130000A4DEF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3621377A1954130000A4DEF8 /* Build configuration list for PBXNativeTarget "FlyingBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3621377B1954130000A4DEF8 /* Debug */,
+				3621377C1954130000A4DEF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3621377D1954130000A4DEF8 /* Build configuration list for PBXNativeTarget "FlyingBirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3621377E1954130000A4DEF8 /* Debug */,
+				3621377F1954130000A4DEF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3621375F1954130000A4DEF8 /* FlyingBird.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				362137601954130000A4DEF8 /* FlyingBird.xcdatamodel */,
+			);
+			currentVersion = 362137601954130000A4DEF8 /* FlyingBird.xcdatamodel */;
+			path = FlyingBird.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 362137401954130000A4DEF8 /* Project object */;
+}

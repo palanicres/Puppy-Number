@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4D276A69-BD50-406A-920C-EF6E82E0A16C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FlyingBird</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C8650490-598D-42C0-8139-BE1E75FB5949</key>
+		<string>https://github.com/palanicres/Puppy-Number.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FlyingBird-master/FlyingBird.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C8650490-598D-42C0-8139-BE1E75FB5949</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/palanicres/Puppy-Number.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C8650490-598D-42C0-8139-BE1E75FB5949</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C8650490-598D-42C0-8139-BE1E75FB5949</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Puppy-Number 2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
